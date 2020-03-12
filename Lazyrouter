@@ -1,0 +1,28 @@
+apt install python -y
+
+apt install python2 -y 
+
+apt install python3 -y 
+
+apt-get install libcurl4-openssl-dev libssl-dev zlib1g-dev
+
+apt-get install git python3-pip
+
+cd 
+
+git clone https://github.com/threat9/routersploit 
+
+cd routersploit
+
+chmod +x *
+
+python3 -m pip install -r requirements.txt
+
+python3 -m pip install -r requirements-dev.txt
+
+pip2 install requests
+
+python3 setup.py install
+
+python rsf.py
+
